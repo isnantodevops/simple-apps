@@ -3,4 +3,4 @@ WORKDIR /app
 ENV APP_PORT=3000
 ADD . .
 RUN npm install
-RUN npm start
+CMD npm start
